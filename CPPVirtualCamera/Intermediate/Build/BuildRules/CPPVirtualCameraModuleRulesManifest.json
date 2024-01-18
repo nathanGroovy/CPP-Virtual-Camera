@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Nakiya\\Documents\\GitHub\\CPP-Virtual-Camera_2\\CPPVirtualCamera\\Source\\CPPVirtualCamera\\CPPVirtualCamera.Build.cs",
+		"C:\\Users\\Nakiya\\Documents\\GitHub\\CPP-Virtual-Camera_2\\CPPVirtualCamera\\Plugins\\AgoraPlugin\\Source\\AgoraPlugin\\AgoraPlugin.Build.cs",
+		"C:\\Users\\Nakiya\\Documents\\GitHub\\CPP-Virtual-Camera_2\\CPPVirtualCamera\\Plugins\\AgoraPlugin\\Source\\ThirdParty\\AgoraPluginLibrary\\AgoraPluginLibrary.Build.cs",
+		"C:\\Users\\Nakiya\\Documents\\GitHub\\CPP-Virtual-Camera_2\\CPPVirtualCamera\\Source\\CPPVirtualCamera.Target.cs",
+		"C:\\Users\\Nakiya\\Documents\\GitHub\\CPP-Virtual-Camera_2\\CPPVirtualCamera\\Source\\CPPVirtualCameraEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

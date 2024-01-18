@@ -1,0 +1,1902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CPPVirtualCamera.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2064F953-BE36-46FC-827B-2A1BAABCA5B0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CPPVirtualCamera.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CPPVirtualCameraEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{49EF8786-4FC9-40CF-BE52-280A967B7617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AgoraPlugin">
+      <UniqueIdentifier>{A9056C7C-3244-4A6A-A0E7-AA86F0FEB79B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AgoraPlugin\Source">
+      <UniqueIdentifier>{7848E345-B160-4224-8922-EF843A3C9158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AgoraPlugin\Source\AgoraPlugin">
+      <UniqueIdentifier>{8BC08828-BF5A-4A17-B663-688039FE91BD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\AgoraPlugin.Build.cs">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\AgoraPlugin\Private">
+      <UniqueIdentifier>{3963AD20-1271-492C-95D4-BC27E50765DA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraPlugin.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin">
+      <UniqueIdentifier>{75C16659-90CB-4DAA-9DF3-0EF57028B19C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\AgoraAudioDeviceManager.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\AgoraIMediaPlayerSourceObserver.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\AgoraIRtcEngineEventHandler.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\AgoraIRtcEngineEventHandlerEx.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\AgoraMediaPlayer.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\AgoraMediaRecorder.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\AgoraRtcEngine.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\AgoraSpatialAudio.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\IAudioEncodedFrameObserver.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\IFrameObserver.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\IMediaRecorderObserver.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\IMediaStreamingSourceObserver.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin\IVideoDeviceManager.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraBluePrintPlugin</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin">
+      <UniqueIdentifier>{84FFB6BF-EAD4-44EB-A1EB-998A0F883F2D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\CacheManagerImpl.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\DataManager.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\RtcEngineProxy.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\VideoObserverInternal.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\VideoRender.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\VideoRenderManager.cpp">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include">
+      <UniqueIdentifier>{6586E067-2216-4F20-8E6B-B4456DC1AAA4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include\AgoraHeaderBase.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include\CacheManagerImpl.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include\DataManager.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include\ICacheManager.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include\RtcEngineProxy.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include\VideoObserverInternal.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include\VideoRender.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include\VideoRenderManager.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Private\AgoraCppPlugin\include</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AgoraPlugin\Source\AgoraPlugin\Public">
+      <UniqueIdentifier>{DB6DAB04-1C13-4DEF-9474-951EFCECFEFD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraPlugin.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraPluginInterface.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin">
+      <UniqueIdentifier>{B8A75AAE-310A-4EA5-9BBF-AFD273DD9D60}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\AgoraAudioDeviceManager.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\AgoraIMediaPlayerSourceObserver.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\AgoraIRtcEngineEventHandler.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\AgoraIRtcEngineEventHandlerEx.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\AgoraMediaPlayer.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\AgoraMediaRecorder.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\AgoraRtcEngine.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\AgoraSpatialAudio.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\IAudioEncodedFrameObserver.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\IFrameObserver.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\IMediaRecorderObserver.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\IMediaStreamingSourceObserver.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\IVideoDeviceManager.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin\URtcEngineProxyCompatibility.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraBluePrintPlugin</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin">
+      <UniqueIdentifier>{ACAB0E69-739A-4C0E-BF03-AF586B446D02}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\AgoraBase.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\AgoraMediaBase.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\AgoraMediaPlayerTypes.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\AgoraOptional.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\AgoraRefPtr.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraH265Transcoder.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraLog.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraMediaComponentFactory.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraMediaEngine.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraMediaPlayer.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraMediaPlayerSource.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraMediaRecorder.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraMediaStreamingSource.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraMusicContentCenter.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraParameter.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraRhythmPlayer.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraRtcEngine.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraRtcEngineEx.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraRtmClient.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraSpatialAudio.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraStateSync.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAgoraStreamChannel.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\IAudioDeviceManager.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\media_engine_i.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\media_player_i.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\metachat_service_i.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\rtc_engine_i.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin\time_utils.h">
+      <Filter>Plugins\AgoraPlugin\Source\AgoraPlugin\Public\AgoraCppPlugin</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\AgoraPlugin\AgoraPlugin.uplugin">
+      <Filter>Plugins\AgoraPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Resources">
+      <UniqueIdentifier>{B8081E13-C5E8-4216-A06F-D583B4CD1C6E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Resources\Icon128.png">
+      <Filter>Plugins\AgoraPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty">
+      <UniqueIdentifier>{D097D30A-2F1C-4E95-8B57-5EC1461E94FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary">
+      <UniqueIdentifier>{EBE21673-FF35-49A3-8782-66D469769EE3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\AgoraPluginLibrary.Build.cs">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android">
+      <UniqueIdentifier>{49581905-71DA-4779-B518-8E126A74D98E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release">
+      <UniqueIdentifier>{46D72320-8E72-4E02-958F-C1894A7F44EF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\agora-rtc-sdk-javadoc.jar">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\agora-rtc-sdk.jar">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\AgoraScreenShareExtension.aar">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\APL_armv7Template.xml">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\APL_armv7TemplateFULL.xml">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\APL_armv7TemplateVoice.xml">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a">
+      <UniqueIdentifier>{62702FEA-DED4-40DB-9299-0489C3398A00}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora-core.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora-fdkaac.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora-ffmpeg.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora-rtc-sdk.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora-soundtouch.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_ai_echo_cancellation_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_ai_noise_suppression_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_audio_beauty_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_clear_vision_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_content_inspect_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_drm_loader_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_face_detection_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_screen_capture_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_segmentation_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_spatial_audio_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_udrm3_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_video_decoder_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_video_encoder_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libagora_video_quality_analyzer_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libvideo_dec.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a\libvideo_enc.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\arm64-v8a</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a">
+      <UniqueIdentifier>{892DCEBC-CB12-4F0A-A71D-61AA18154007}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora-core.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora-fdkaac.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora-ffmpeg.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora-rtc-sdk.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora-soundtouch.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_ai_echo_cancellation_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_ai_noise_suppression_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_audio_beauty_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_clear_vision_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_content_inspect_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_drm_loader_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_face_detection_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_screen_capture_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_segmentation_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_spatial_audio_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_udrm3_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_video_decoder_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_video_encoder_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libagora_video_quality_analyzer_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libvideo_dec.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a\libvideo_enc.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\armeabi-v7a</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api">
+      <UniqueIdentifier>{4BFBEACA-8A55-43C2-AD94-A05DA02C62B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include">
+      <UniqueIdentifier>{9F1A7677-6659-4F77-A467-6A02B3C9E44D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\AgoraBase.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\AgoraMediaBase.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\AgoraMediaPlayerTypes.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\AgoraOptional.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\AgoraRefPtr.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraH265Transcoder.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraLog.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraMediaComponentFactory.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraMediaEngine.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraMediaPlayer.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraMediaPlayerSource.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraMediaRecorder.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraMediaStreamingSource.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraMusicContentCenter.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraParameter.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraRhythmPlayer.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraRtcEngine.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraRtcEngineEx.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraRtmClient.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraSpatialAudio.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAgoraStreamChannel.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\IAudioDeviceManager.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include\time_utils.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\high_level_api\include</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api">
+      <UniqueIdentifier>{EC898064-15A5-4B65-9B45-72720D203738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include">
+      <UniqueIdentifier>{745834DF-7FB7-463E-8C38-5E19F86D2FA1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\AgoraAtomicOps.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\AgoraBase.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\AgoraExtensionProviderEntry.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\AgoraExtensionVersion.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\AgoraMediaBase.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\AgoraMediaPlayerTypes.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\AgoraOptional.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\AgoraRefCountedObject.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\AgoraRefPtr.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\IAgoraFileUploader.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\IAgoraLog.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\IAgoraMediaPlayerSource.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\IAgoraMediaStreamingSource.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\IAgoraParameter.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\IAgoraRtmpStreamingService.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\IAgoraRtmService.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\IAgoraService.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraAudioDeviceManager.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraAudioTrack.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraCameraCapturer.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraDataChannel.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraExtensionControl.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraExtensionProvider.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraLocalUser.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraMediaNode.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraMediaNodeFactory.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraRemoteAudioMixerSource.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraRtcConnection.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraRtmpConnection.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraRtmpLocalUser.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraScreenCapturer.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraVideoFrame.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraVideoMixerSource.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\NGIAgoraVideoTrack.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include\time_utils.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\low_level_api\include</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86">
+      <UniqueIdentifier>{A7943729-73C2-4497-8672-3563D8A965B9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora-core.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora-fdkaac.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora-ffmpeg.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora-rtc-sdk.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora-soundtouch.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_ai_echo_cancellation_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_ai_noise_suppression_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_audio_beauty_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_clear_vision_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_content_inspect_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_drm_loader_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_face_detection_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_screen_capture_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_segmentation_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_spatial_audio_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_udrm3_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_video_decoder_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_video_encoder_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libagora_video_quality_analyzer_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libvideo_dec.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86\libvideo_enc.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64">
+      <UniqueIdentifier>{C7256C74-5FFF-4A33-B65F-6F9E32FF340B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora-core.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora-fdkaac.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora-ffmpeg.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora-rtc-sdk.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora-soundtouch.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_ai_echo_cancellation_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_ai_noise_suppression_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_audio_beauty_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_clear_vision_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_content_inspect_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_drm_loader_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_face_detection_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_screen_capture_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_segmentation_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_spatial_audio_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_udrm3_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_video_decoder_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_video_encoder_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libagora_video_quality_analyzer_extension.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libvideo_dec.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64\libvideo_enc.so">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Android\Release\x86_64</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS">
+      <UniqueIdentifier>{1ACCB159-3784-4629-BC7F-D6C4F168BC7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release">
+      <UniqueIdentifier>{3D238B97-03FE-49F6-A5AD-E92C8C6DB94E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraAiEchoCancellationExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraAiNoiseSuppressionExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraAudioBeautyExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraClearVisionExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraContentInspectExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraCore.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraDrmLoaderExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraFaceDetectionExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\Agorafdkaac.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\Agoraffmpeg.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraReplayKitExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraRtcKit.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraSoundTouch.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraSpatialAudioExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraVideoDecoderExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraVideoEncoderExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraVideoQualityAnalyzerExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\AgoraVideoSegmentationExtension.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\video_dec.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release\video_enc.framework.zip">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\IOS\Release</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac">
+      <UniqueIdentifier>{E47B5333-3C9E-4EE9-9A13-9050342DB6B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release">
+      <UniqueIdentifier>{E664451B-B198-41BC-93E8-EEFB1123F748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework">
+      <UniqueIdentifier>{259B3B4A-BEB4-4A76-A8C2-77FDF0626859}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework\AgoraAiEchoCancellationExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework\Versions">
+      <UniqueIdentifier>{E1A65FAC-E9D7-4658-831C-B829822E9EBE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework\Versions\A">
+      <UniqueIdentifier>{E6394E45-FDB6-40A2-9312-55080B06BBAD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework\Versions\A\AgoraAiEchoCancellationExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{F46AE435-869C-4B47-A6AF-B3DF0AECCD5B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiEchoCancellationExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework">
+      <UniqueIdentifier>{66EAEC58-1947-4171-A8C0-28471A8942DB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework\AgoraAiNoiseSuppressionExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework\Versions">
+      <UniqueIdentifier>{9BBF1D0C-93CC-4FFD-AC7B-5A434C70F93B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework\Versions\A">
+      <UniqueIdentifier>{99D44EDB-E1E8-4240-ABCE-9BF97E8200E4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework\Versions\A\AgoraAiNoiseSuppressionExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{B90BB4A4-9795-4D12-B32D-D0D0096FCFEC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAiNoiseSuppressionExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework">
+      <UniqueIdentifier>{2EC911B5-2AF0-4B29-828F-BEADA9F4AA1F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework\AgoraAudioBeautyExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework\Versions">
+      <UniqueIdentifier>{8CAF4BEF-9E8C-43CE-A1C5-D81AC38C436D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework\Versions\A">
+      <UniqueIdentifier>{8449FF36-1B0E-4341-9FEC-2697949D3379}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework\Versions\A\AgoraAudioBeautyExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{9F58F7A7-4BB7-4023-8518-AB944D15A9E3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraAudioBeautyExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework">
+      <UniqueIdentifier>{9CF2B15F-943E-458F-91F2-2992FE0D0741}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework\AgoraClearVisionExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework\Versions">
+      <UniqueIdentifier>{964288AD-F2E7-453A-94D9-DA9587628279}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework\Versions\A">
+      <UniqueIdentifier>{E97D3DB9-1099-46C3-9D0E-644749AD33D8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework\Versions\A\AgoraClearVisionExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{B45EB3D4-0FC2-414D-826F-1B3600AEB9B5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraClearVisionExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework">
+      <UniqueIdentifier>{FC231D90-3BA8-46DB-98C0-ECAB31592BE6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework\AgoraContentInspectExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework\Versions">
+      <UniqueIdentifier>{B1A76239-E6DF-4478-901E-011B952AFED2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework\Versions\A">
+      <UniqueIdentifier>{A882914D-06E4-470B-ABCE-BACB05ECA60E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework\Versions\A\AgoraContentInspectExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{98424C98-C761-421C-B6EC-A07F00213167}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraContentInspectExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework">
+      <UniqueIdentifier>{A3AA637B-D51E-4D9C-B2B3-0C82AFDCA419}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework\AgoraCore">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework\Versions">
+      <UniqueIdentifier>{3FD3B5C7-5F08-4190-B572-6EB1CFAC6C2D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework\Versions\A">
+      <UniqueIdentifier>{4C55CA8D-D554-4A2C-80A4-A4B468296F8F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework\Versions\A\AgoraCore">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework\Versions\A\Resources">
+      <UniqueIdentifier>{8EB8500B-AC72-42C6-A8AF-FF816FE54FE0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraCore.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework">
+      <UniqueIdentifier>{7D6583CF-5EA9-4D9A-B893-F4B506F75676}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework\AgoraDrmLoaderExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework\Versions">
+      <UniqueIdentifier>{87AE9572-28E4-4803-BA73-66B8E2AD785B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework\Versions\A">
+      <UniqueIdentifier>{6DE21524-E9A1-4C28-B5E1-B49CAF30F11E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework\Versions\A\AgoraDrmLoaderExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{361E436D-746C-4314-81DF-636075C85263}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraDrmLoaderExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework">
+      <UniqueIdentifier>{05344082-4D1C-4AF7-8414-0E1CBA10ACEC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework\AgoraFaceDetectionExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework\Versions">
+      <UniqueIdentifier>{2643612A-8A62-4E39-A151-2C479FBF029D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework\Versions\A">
+      <UniqueIdentifier>{C7CAA5FB-465D-4B6B-92E6-F4C8FAA95333}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework\Versions\A\AgoraFaceDetectionExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{96B61ED5-83A2-40CF-A53C-38D48853C9D8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraFaceDetectionExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework">
+      <UniqueIdentifier>{5DC738B0-9B43-41C7-80F9-A025786A446D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework\Agorafdkaac">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework\Versions">
+      <UniqueIdentifier>{CB1E0829-30BC-4177-8B16-6157E0C17F6C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework\Versions\A">
+      <UniqueIdentifier>{FDAAD054-C48C-4526-89A7-95B30E19BF37}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework\Versions\A\Agorafdkaac">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework\Versions\A\Resources">
+      <UniqueIdentifier>{2B465355-E83B-48C7-8C97-292E004986B9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agorafdkaac.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework">
+      <UniqueIdentifier>{759E2F2F-5322-4981-BB73-ED2A7D75C257}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework\Agoraffmpeg">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework\Versions">
+      <UniqueIdentifier>{E19480DC-6892-4AD3-BEA8-2D931DEAF99A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework\Versions\A">
+      <UniqueIdentifier>{435891B8-43DB-4E83-A178-915DE09713D5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework\Versions\A\Agoraffmpeg">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework\Versions\A\Resources">
+      <UniqueIdentifier>{13429EFB-C490-41E4-8DC4-B9242ED36981}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\Agoraffmpeg.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework">
+      <UniqueIdentifier>{4C796281-D893-4086-8DC8-F56FDED47CDF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\AgoraRtcKit">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Headers">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Modules">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions">
+      <UniqueIdentifier>{3469699C-877B-486C-A380-CEC8EC1F7B24}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A">
+      <UniqueIdentifier>{76634D3B-AF37-461D-9CEB-C4A1799C93F5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\AgoraRtcKit">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers">
+      <UniqueIdentifier>{1B20828D-2E89-454C-A5F6-0F961FC2D97A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraAtomicOps.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraBase.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraBaseDelegate.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraConstants.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraEnumerates.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraExtensionProviderEntry.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraExtensionVersion.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraH265TranscoderDelegate.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraH265TranscoderProtocol.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraMediaBase.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraMediaFilterEventDelegate.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraMediaPlayerTypes.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraMusicContentCenter.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraObjects.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraOptional.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraRefCountedObject.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraRefPtr.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraRtcAudioSpectrumDelegate.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraRtcEngineDelegate2.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraRtcEngineKit.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraRtcEngineKitEx.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraRtcKit.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraRtcMediaPlayerProtocol.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraRtmClientKit.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\AgoraSpatialAudioKit.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraFileUploader.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraH265Transcoder.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraLog.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraMediaComponentFactory.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraMediaEngine.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraMediaPlayer.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraMediaPlayerSource.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraMediaRecorder.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraMediaStreamingSource.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraMusicContentCenter.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraParameter.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraRhythmPlayer.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraRtcEngine.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraRtcEngineEx.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraRtmClient.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraRtmpStreamingService.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraRtmService.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraService.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraSpatialAudio.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAgoraStreamChannel.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\IAudioDeviceManager.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraAudioDeviceManager.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraAudioTrack.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraCameraCapturer.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraDataChannel.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraExtensionControl.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraExtensionProvider.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraLocalUser.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraMediaNode.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraMediaNodeFactory.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraRemoteAudioMixerSource.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraRtcConnection.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraRtmpConnection.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraRtmpLocalUser.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraScreenCapturer.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraVideoFrame.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraVideoMixerSource.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\NGIAgoraVideoTrack.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers\time_utils.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Modules">
+      <UniqueIdentifier>{404139E2-6BEA-431B-888C-72D784FD09E0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Modules\module.modulemap">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Modules</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Resources">
+      <UniqueIdentifier>{F8365EFF-D8BB-4C2C-9E86-3A7DF1103F08}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraRtcKit.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework">
+      <UniqueIdentifier>{4C12D06D-F25D-48FD-A37F-902067EF25BC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework\AgoraScreenCaptureExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework\Versions">
+      <UniqueIdentifier>{11D3D289-DD4A-40D7-BE47-C769DFB71891}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework\Versions\A">
+      <UniqueIdentifier>{27190648-4EE3-4EBB-BA02-57E3642F9867}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework\Versions\A\AgoraScreenCaptureExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{58B68C14-9536-417C-878E-71B45CCC790C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraScreenCaptureExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework">
+      <UniqueIdentifier>{E64C26D2-C587-4E0D-9880-DE783B33918A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework\AgoraSoundTouch">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework\Versions">
+      <UniqueIdentifier>{0DE6F0DE-91DA-4AEA-BC5D-7BE491D00749}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework\Versions\A">
+      <UniqueIdentifier>{FB1788C2-3DAA-4C95-AC9F-EC070FDFF328}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework\Versions\A\AgoraSoundTouch">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework\Versions\A\Resources">
+      <UniqueIdentifier>{9D0C9997-D525-447A-A58F-6806010665B3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSoundTouch.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework">
+      <UniqueIdentifier>{55B4D5FD-0D76-410B-9931-8238BD40DDA5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework\AgoraSpatialAudioExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework\Versions">
+      <UniqueIdentifier>{E0251681-9DD7-44BB-B72D-1009A93F8432}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework\Versions\A">
+      <UniqueIdentifier>{AD6E4067-943D-4271-AE1A-B4B3E553D24D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework\Versions\A\AgoraSpatialAudioExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{E82FBCB0-243C-4E35-95FC-D7EC11F7FBA0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraSpatialAudioExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework">
+      <UniqueIdentifier>{C9FA3A68-888C-461D-B5E8-174DCD6E05FE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework\AgoraVideoDecoderExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework\Versions">
+      <UniqueIdentifier>{9AAE8E29-0BC3-4800-8B57-E18D6527671A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework\Versions\A">
+      <UniqueIdentifier>{339CC5EE-9C08-431B-91B6-9FF39F620B67}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework\Versions\A\AgoraVideoDecoderExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{BF36D4B8-E03E-4FF9-A857-7F2C59ECA653}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoDecoderExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework">
+      <UniqueIdentifier>{88C5ED12-7443-4F08-8A04-08094B3D07D0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework\AgoraVideoEncoderExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework\Versions">
+      <UniqueIdentifier>{8E882E1F-32B6-4CB7-BC5E-9B67A82ADFCA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework\Versions\A">
+      <UniqueIdentifier>{26F4604F-76AC-4187-A500-3EF0A1DDF8C3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework\Versions\A\AgoraVideoEncoderExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{8E7E6BC6-6C31-45A4-918A-22331506B654}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoEncoderExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework">
+      <UniqueIdentifier>{2F8112F9-D427-41DF-B0C8-973F20C1EE5B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework\AgoraVideoQualityAnalyzerExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework\Versions">
+      <UniqueIdentifier>{4C911043-17E1-48D7-B6C2-CF259681E35A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework\Versions\A">
+      <UniqueIdentifier>{E6091237-82BB-46D4-B6DD-784CF9B7AB91}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework\Versions\A\AgoraVideoQualityAnalyzerExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{112DFD42-A145-42AB-AD25-684CEBE12605}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoQualityAnalyzerExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework">
+      <UniqueIdentifier>{0CA43B3D-8D78-482A-95A8-ED3C95C6CF45}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework\AgoraVideoSegmentationExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework\Versions">
+      <UniqueIdentifier>{8AE9D261-9457-4A3A-9BAC-6F4496CCE8F0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework\Versions\A">
+      <UniqueIdentifier>{B72083F3-065A-462A-9511-9342600A8522}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework\Versions\A\AgoraVideoSegmentationExtension">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework\Versions\A\Resources">
+      <UniqueIdentifier>{6D607AE3-5518-47BF-85D2-35A28C93D593}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\AgoraVideoSegmentationExtension.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework">
+      <UniqueIdentifier>{9F7E8DF4-0267-42A4-B932-E104EF64A552}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Headers">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\video_dec">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions">
+      <UniqueIdentifier>{3C511272-B1AB-4519-8034-63D628994FA4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions\A">
+      <UniqueIdentifier>{9D5E47A5-D8F8-4D19-834F-491B5099F55E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions\A\video_dec">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions\A\Headers">
+      <UniqueIdentifier>{E91A0CAD-8378-4D9A-81EB-60559D4FD567}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions\A\Headers\wz265dec.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions\A\Headers\wz265def.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions\A\Resources">
+      <UniqueIdentifier>{D05E35EA-852C-4CBC-BE44-891299A36245}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_dec.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework">
+      <UniqueIdentifier>{AE178CB8-7D21-41AD-BE31-F39771BB125A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Headers">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Resources">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\video_enc">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions">
+      <UniqueIdentifier>{AF1E0795-B626-42BB-8046-9B2A77E71B4F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions\Current">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions\A">
+      <UniqueIdentifier>{F4A835A8-0B13-464E-94AF-DC2D4613E08D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions\A\video_enc">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions\A</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions\A\Headers">
+      <UniqueIdentifier>{CC706CF2-54C9-477D-9C21-C754A0AD22AB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions\A\Headers\wz265def.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions\A\Headers\wz265enc.h">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions\A\Headers</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions\A\Resources">
+      <UniqueIdentifier>{E7E7A165-D699-479C-8085-AF5DE25CA668}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions\A\Resources\Info.plist">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Mac\Release\video_enc.framework\Versions\A\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win">
+      <UniqueIdentifier>{C1D5D1B7-CB16-4F3E-AAC9-95A833019C4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release">
+      <UniqueIdentifier>{83E909E8-5E1F-4771-8484-391785C126AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86">
+      <UniqueIdentifier>{01F0A2A6-294D-42E7-9EA9-36E3AF2EAB51}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\agora_rtc_sdk.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\agora_rtc_sdk.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\glfw3.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora-core.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora-fdkaac.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora-fdkaac.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora-ffmpeg.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora-ffmpeg.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora-soundtouch.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora-soundtouch.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora-wgc.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_ai_echo_cancellation_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_ai_echo_cancellation_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_ai_noise_suppression_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_ai_noise_suppression_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_audio_beauty_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_audio_beauty_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_clear_vision_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_clear_vision_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_content_inspect_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_content_inspect_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_drm_loader_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_drm_loader_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_face_detection_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_face_detection_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_screen_capture_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_screen_capture_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_segmentation_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_segmentation_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_spatial_audio_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_spatial_audio_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_udrm3_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_udrm3_extension.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_video_decoder_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_video_decoder_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_video_encoder_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_video_encoder_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_video_quality_analyzer_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\libagora_video_quality_analyzer_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\video_dec.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\video_dec.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\video_enc.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86\video_enc.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86</Filter>
+    </None>
+    <Filter Include="Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64">
+      <UniqueIdentifier>{F268C22B-7FAD-4065-9698-C89780F617E8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\agora_rtc_sdk.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\agora_rtc_sdk.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\glfw3.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora-core.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora-fdkaac.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora-fdkaac.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora-ffmpeg.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora-ffmpeg.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora-soundtouch.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora-soundtouch.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora-wgc.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_ai_echo_cancellation_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_ai_echo_cancellation_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_ai_noise_suppression_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_ai_noise_suppression_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_audio_beauty_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_audio_beauty_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_clear_vision_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_clear_vision_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_content_inspect_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_content_inspect_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_drm_loader_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_drm_loader_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_face_detection_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_face_detection_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_screen_capture_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_screen_capture_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_segmentation_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_segmentation_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_spatial_audio_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_spatial_audio_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_udrm3_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_udrm3_extension.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_video_decoder_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_video_decoder_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_video_encoder_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_video_encoder_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_video_quality_analyzer_extension.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\libagora_video_quality_analyzer_extension.dll.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\video_dec.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\video_dec.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\video_enc.dll">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64\video_enc.lib">
+      <Filter>Plugins\AgoraPlugin\Source\ThirdParty\AgoraPluginLibrary\Win\Release\x86_64</Filter>
+    </None>
+    <Filter Include="Source\CPPVirtualCamera">
+      <UniqueIdentifier>{33D9480B-AD14-4ADD-8B22-0B78F7B3F8FF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CPPVirtualCamera\ChannelWidget.cpp">
+      <Filter>Source\CPPVirtualCamera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPVirtualCamera\ChannelWidget.h">
+      <Filter>Source\CPPVirtualCamera</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\CPPVirtualCamera\CPPVirtualCamera.Build.cs">
+      <Filter>Source\CPPVirtualCamera</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CPPVirtualCamera\CPPVirtualCamera.cpp">
+      <Filter>Source\CPPVirtualCamera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPVirtualCamera\CPPVirtualCamera.h">
+      <Filter>Source\CPPVirtualCamera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPPVirtualCamera\CPPVirtualCameraGameModeBase.cpp">
+      <Filter>Source\CPPVirtualCamera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPVirtualCamera\CPPVirtualCameraGameModeBase.h">
+      <Filter>Source\CPPVirtualCamera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPPVirtualCamera\MyUserWidget.cpp">
+      <Filter>Source\CPPVirtualCamera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPVirtualCamera\MyUserWidget.h">
+      <Filter>Source\CPPVirtualCamera</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

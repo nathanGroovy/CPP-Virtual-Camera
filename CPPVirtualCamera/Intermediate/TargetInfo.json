@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CPPVirtualCamera",
+			"Path": "C:\\Users\\Nakiya\\Documents\\GitHub\\CPP-Virtual-Camera_2\\CPPVirtualCamera\\Source\\CPPVirtualCamera.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CPPVirtualCameraEditor",
+			"Path": "C:\\Users\\Nakiya\\Documents\\GitHub\\CPP-Virtual-Camera_2\\CPPVirtualCamera\\Source\\CPPVirtualCameraEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
