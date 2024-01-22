@@ -13,6 +13,7 @@
 
 
 
+
 #if PLATFORM_ANDROID
 #include "AndroidPermission/Classes/AndroidPermissionFunctionLibrary.h"
 #endif
@@ -31,6 +32,29 @@ UCLASS()
 class CPPVIRTUALCAMERA_API UChannelWidget : public UUserWidget, public IRtcEngineEventHandler
 {
 	GENERATED_BODY()
+
+#pragma region Event Handler
+
+public:
+
+	class FUserRtcEventHandler : public agora::rtc::IRtcEngineEventHandler
+	{
+	public:
+
+		FUserRtcEventHandler(UChannelWidget* InVideoWidget) : WidgetPtr(InVideoWidget) {};
+
+#pragma region AgoraCallback - IRtcEngineEventHandler
+
+#pragma endregion
+
+		inline bool IsWidgetValid() { return WidgetPtr.IsValid(); }
+
+	private:
+
+		TWeakObjectPtr<UChannelWidget> WidgetPtr;
+	};
+
+#pragma endregion
 
 	void CheckAndroidPermission();
 
@@ -52,10 +76,19 @@ class CPPVIRTUALCAMERA_API UChannelWidget : public UUserWidget, public IRtcEngin
 
 	agora::media::IMediaEngine* MediaEngine;
 	FString VIDEO_FILE = "MPK.mp4";
+	FDelegateHandle eventId;
+
+	//TSharedPtr<FUserRtcEventHandler> UserRtcEventHandler;
+
+	agora::media::base::ExternalVideoFrame* UserExternalVideoFrame;
+
+
 
 
 protected:
 	
+	
+
 	// Occurs when a remote user joins the channel.
 	void onUserJoined(uid_t uid, int elapsed) override;
 	// Occurs when a local user joins the channel.
@@ -80,4 +113,6 @@ protected:
 	UFUNCTION(BlueprintCallable)
 	void OnJoinButtonClick();
 	
+	void OnBackBufferReady_RenderThread(SWindow& window, const FTexture2DRHIRef& BackBuffer);
+	std::time_t getTimeStamp();
 };

@@ -8,7 +8,7 @@ public class CPPVirtualCamera : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AgoraPlugin" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AgoraPlugin", "RHI", "SlateCore", "Slate" });
 
         PrivateDependencyModuleNames.AddRange(new string[] {  });
 

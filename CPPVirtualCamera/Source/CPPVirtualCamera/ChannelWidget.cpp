@@ -2,6 +2,13 @@
 
 
 #include "ChannelWidget.h"
+#include "RHICommandList.h"
+#include "Math/IntRect.h"
+#include "RHI.h"
+#include "RHIResources.h"
+#include "Rendering/SlateRenderer.h"
+#include "Widgets/SWindow.h"
+#include "RHIDefinitions.h"
 
 void UChannelWidget::CheckAndroidPermission()
 {
@@ -43,7 +50,6 @@ void UChannelWidget::startPushVideo()
     externalVideoFrame.format = agora::media::base::VIDEO_PIXEL_RGBA;
     externalVideoFrame.stride = 1920;
     externalVideoFrame.height = 1040;
-    std::chrono::time_point<std::chrono::system_clock, std::chrono::milliseconds> tp = std::chrono::time_point_cast<std::chrono::milliseconds>(std::chrono::system_clock::now());
     externalVideoFrame.timestamp = 0;
     ChannelMediaOptions options;
     options.clientRoleType = CLIENT_ROLE_BROADCASTER;
@@ -87,6 +93,8 @@ void UChannelWidget::setupVideoSDKEngine()
     LeaveBtn->OnClicked.AddDynamic(this, &UChannelWidget::OnLeaveButtonClick);
     JoinBtn->OnClicked.AddDynamic(this, &UChannelWidget::OnJoinButtonClick);
     agoraEngine->queryInterface(AGORA_IID_MEDIA_ENGINE, (void**)&MediaEngine);
+
+    
 }
 
 void UChannelWidget::OnLeaveButtonClick()
@@ -111,7 +119,12 @@ void UChannelWidget::OnJoinButtonClick()
     agoraEngine->joinChannel(token.c_str(), channelName.c_str(), "", 0);
     isJoin = true;
     UE_LOG(LogTemp, Warning, TEXT("User Joined Channel"));
-    
+
+    if (FSlateApplication::IsInitialized())
+    {
+        eventId = FSlateApplication::Get().GetRenderer()->OnBackBufferReadyToPresent().AddUObject(this, &UChannelWidget::OnBackBufferReady_RenderThread);
+    }
+
 }
 
 void UChannelWidget::onLeaveChannel(const RtcStats& stats)
@@ -137,7 +150,6 @@ void UChannelWidget::onJoinChannelSuccess(const char* channel, uid_t uid, int el
     AsyncTask(ENamedThreads::GameThread, [=]()
         {
             UE_LOG(LogTemp, Warning, TEXT("JoinChannelSuccess uid: %u"), uid);
-            startPushVideo();
         });
 }
 
@@ -200,10 +212,57 @@ void UChannelWidget::NativeConstruct()
     setupVideoSDKEngine();
 }
 
+std::time_t UChannelWidget::getTimeStamp()
+{
+    std::chrono::time_point<std::chrono::system_clock, std::chrono::milliseconds> tp = std::chrono::time_point_cast<std::chrono::milliseconds>(std::chrono::system_clock::now());
+    std::time_t timestamp = tp.time_since_epoch().count();
+    return timestamp;
+}
 
+void UChannelWidget::OnBackBufferReady_RenderThread(SWindow& window, const FTexture2DRHIRef& BackBuffer)
+{
 
+    ChannelMediaOptions options;
+    options.clientRoleType = CLIENT_ROLE_BROADCASTER;
+    options.autoSubscribeAudio = true;
+    options.autoSubscribeVideo = true;
+    options.publishCameraTrack = false; // Disable publishing video track.
+    options.publishCustomVideoTrack = true; // Enable publishing custom video track.
+    options.publishMicrophoneTrack = false;
+    int update = agoraEngine->updateChannelMediaOptions(options);
 
+    FRHICommandListImmediate& RHICmdList = FRHICommandListExecutor::GetImmediateCommandList();
+    auto width = BackBuffer->GetSizeX();
+    auto height = BackBuffer->GetSizeY();
+    FIntRect Rect(0, 0, BackBuffer->GetSizeX(), BackBuffer->GetSizeY());
+    TArray<FColor> Data;
 
-
-
-
+    RHICmdList.ReadSurfaceData(BackBuffer, Rect, Data, FReadSurfaceDataFlags());
+    if (UserExternalVideoFrame == nullptr)
+    {
+        UserExternalVideoFrame = new agora::media::base::ExternalVideoFrame();
+    }
+    UserExternalVideoFrame->type = agora::media::base::ExternalVideoFrame::VIDEO_BUFFER_TYPE::VIDEO_BUFFER_RAW_DATA;
+    UserExternalVideoFrame->format = agora::media::base::VIDEO_PIXEL_FORMAT::VIDEO_PIXEL_BGRA;
+    UserExternalVideoFrame->stride = BackBuffer->GetSizeX();
+    UserExternalVideoFrame->height = BackBuffer->GetSizeY();
+    UserExternalVideoFrame->cropLeft = 10;
+    UserExternalVideoFrame->cropTop = 10;
+    UserExternalVideoFrame->cropRight = 10;
+    UserExternalVideoFrame->cropBottom = 10;
+    UserExternalVideoFrame->rotation = 0;
+    UserExternalVideoFrame->timestamp = getTimeStamp();
+    if (UserExternalVideoFrame->buffer == nullptr)
+    {
+        UserExternalVideoFrame->buffer = (uint8*)FMemory::Malloc(BackBuffer->GetSizeX() * BackBuffer->GetSizeY() * 4);
+    }
+    if (Data.Num() > 4)
+    {
+        FMemory::Memcpy(UserExternalVideoFrame->buffer, Data.GetData(), BackBuffer->GetSizeX() * BackBuffer->GetSizeY() * 4);
+        if (MediaEngine != nullptr)
+        {
+            int error = MediaEngine->pushVideoFrame(UserExternalVideoFrame);
+            UE_LOG(LogTemp, Warning, TEXT("push video frame: %i"), error);
+        }
+    }
+}
