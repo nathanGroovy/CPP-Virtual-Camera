@@ -194,15 +194,8 @@ void UChannelWidget::onUserJoined(uid_t uid, int elapsed)
 void UChannelWidget::NativeDestruct()
 {
     Super::NativeDestruct();
-    UE_LOG(LogTemp, Warning, TEXT("UMyUserWidget::NativeDestruct"));
-    if (agoraEngine != nullptr)
-    {
-        OnLeaveButtonClick();
-        agoraEngine->unregisterEventHandler(this);
-        agoraEngine->release();
-        delete agoraEngine;
-        agoraEngine = nullptr;
-    }
+    FSlateApplication::Get().GetRenderer()->OnBackBufferReadyToPresent().Remove(eventId);
+
 }
 
 
